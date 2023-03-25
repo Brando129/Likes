@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Likes</title>
+</head>
+<body>
+    <!-- Container1 -->
+    <div class="container1">
+        <!-- Row1 -->
+        <div class="row1" >
+            <!-- Start of Headers -->
+            <h1 class="header1" ><span>Network</span></h1>
+            <h1 class="header2" >Your Feed</h1>
+            <!-- End of Headers -->
+        </div>
+        <!-- End of Row1 -->
+        <!-- Row2 -->
+        <div class="row2">
+            <!-- Column1 -->
+            <div class="column1">
+                <!-- Main Card -->
+                <img class="avatar" src="imgs/user-circle.png" alt="Avatar Picture">
+                <a class="avatarLink" href="#">Add an Avatar</a>
+                <h1 class="profileName" >John Doe</h1>
+                <!-- End of Main Card -->
+            </div>
+            <!-- End of Column1 -->
+            <!-- Column2 -->
+            <div class="column2">
+                <!-- Cards -->
+                <div class="card" >
+                    <div class="cardheader" >
+                        <h2>Donkey Kong</h2>
+                        <h3 id="cardLikes1" >3 like(s)</h3>
+                        <button class="btns" onclick="thumbsUp1()" >Like</button>
+                    </div>
+                    <div class="cardFooter">
+                        <p class="paratext" >I just set up this new discord bot, let me know what you all think. <a class="links" href="#">link</a></p>
+                    </div>
+                </div>
+                <div class="card" >
+                    <div class="cardheader" >
+                        <h2>Diddy Kong</h2>
+                        <h3 id="cardLikes2" >12 like(s)</h3>
+                        <button class="btns" onclick="thumbsUp2()" >Like</button>
+                    </div>
+                    <div class="cardFooter">
+                        <p class="paratext" >Just finished my <a class="links" href="#">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="card" >
+                    <div class="cardheader" >
+                        <h2>Cranky Kong</h2>
+                        <h3 id="cardLikes3" >9 like(s)</h3>
+                        <button class="btns" onclick="thumbsUp3()" >Like</button>
+                    </div>
+                    <div class="cardFooter">
+                        <p class="paratext" >I can't stop listening to the <a class="links" href="#">new album</a>. Who else is liking it?</p>
+                    </div>
+                </div>
+                <!-- End of Cards -->
+            </div>
+            <!-- End of Column2 -->
+        </div>
+        <!-- End of Row2 -->
+    </div>
+    <!-- End of Container1 -->
+    <script src="script.js"></script>
+</body>
+</html>
